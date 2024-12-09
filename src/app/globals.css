@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo{
+font-size:45px;
+font-weight: bold;
+font:Plus Jakarta Sans;
+color: #3563E9;
+line-height: 48px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box{
+    margin-top: 30px;
+ color: #FFFFFF;
+ width: 582px;
+ height: 136px;
+ gap: 0px;
+ border-radius: 10px 0px 0px 0px;
+ opacity: 0px;
+
+}
+
+.pick{
+display: flex;
+ width: 300px;
+height: 30px;
+font-weight: bold;
+font-size: 30px;
+}
+
+.title{
+ font: rgba(26, 32, 44, 1);
+ font-weight: bold;
+
+}
+
+.fcar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top: 2px;
+}
+
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.end{
+    justify-content: end;
+    align-items: end;
+    display: flex;
+}
